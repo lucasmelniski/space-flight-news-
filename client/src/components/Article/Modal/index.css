@@ -1,0 +1,20 @@
+.articleRow {
+  padding-bottom: 50px;
+}
+.image {
+  height: 100%;
+  width: 100%;
+}
+.date {
+  font-size: 14px;
+}
+
+.moreInfos {
+  background-color: #1e2022bb !important;
+  border: none !important;
+}
+.moreInfos:hover,
+.moreInfos:active,
+.moreInfos:focus {
+  background-color: #1e202291 !important;
+}

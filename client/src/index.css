@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Roboto", sans-serif;
+  color: #1e2022;
+  color: #302e53;
+  color: #d07017;
+}
+
+#root {
+  font-family: "Roboto", sans-serif;
+}

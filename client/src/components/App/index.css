@@ -1,0 +1,17 @@
+#app {
+  padding: 50px 100px;
+}
+
+.loadMore {
+  border: 1px solid #302e53 !important;
+  color: #302e53 !important;
+  background-color: white !important;
+}
+
+.loadMore:hover,
+.loadMore:active,
+.loadMore:focus {
+  background-color: rgb(233, 233, 233) !important;
+  color: #302e53c4 !important;
+  border-color: #302e53c4 !important;
+}

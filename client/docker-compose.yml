@@ -1,0 +1,27 @@
+version: "3.4"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: web.space_flight
+    restart: unless-stopped
+    environment:
+      VIRTUAL_HOST: "web.space_flight"
+      VIRTUAL_PORT: 3000
+      COMPOSE_CONVERT_WINDOWS_PATHS: 1
+    external_links:
+      - nginx-proxy.web-base
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.build
+    networks:
+      - default
+
+networks:
+  default:
+    name: main

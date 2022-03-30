@@ -1,0 +1,36 @@
+.articleRow {
+  padding-bottom: 50px;
+}
+.image {
+  height: 100%;
+  width: 100%;
+}
+.date {
+  font-size: 14px;
+}
+
+.moreInfos {
+  background-color: #1e2022bb !important;
+  border: none !important;
+}
+.moreInfos:hover,
+.moreInfos:active,
+.moreInfos:focus {
+  background-color: #1e202291 !important;
+}
+
+.actionButton {
+  padding: 0 !important ;
+  margin-left: 15px !important ;
+  width: 40px !important ;
+  background-color: #d07017 !important ;
+  color: white;
+  border: none !important;
+}
+
+.actionButton:hover,
+.actionButton:active,
+.actionButton:focus {
+  background-color: #d07017 !important;
+  border: none !important;
+}
